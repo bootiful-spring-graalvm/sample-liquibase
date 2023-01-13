@@ -11,11 +11,11 @@
     <groupId>com.example</groupId>
     <artifactId>liquibase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-     <properties>
+    <properties>
         <reflections.version>0.9.11</reflections.version>
         <java.version>17</java.version>
         <repackage.classifier/>
-     </properties>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -26,7 +26,6 @@
             <artifactId>hints</artifactId>
             <version>0.0.3-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
